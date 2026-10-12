@@ -1,0 +1,28 @@
+{
+  "bhk": 3,
+  "type": "house",
+  "facing": null,
+  "rooms": {
+    "living_room": true,
+    "hall": false,
+    "master_bedroom": true,
+    "bedroom_count": 2,
+    "kitchen": true,
+    "toilet": true,
+    "bathroom_count": 0,
+    "puja": false,
+    "study": false,
+    "balcony": false,
+    "dining": false,
+    "portico": false,
+    "utility": false,
+    "corridor": false
+  },
+  "style": {
+    "vastu": false,
+    "open_kitchen": false,
+    "attached_bathroom": false
+  },
+  "area_sqft": null,
+  "raw_prompt": "3BHK"
+}

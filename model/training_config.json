@@ -1,0 +1,18 @@
+{
+  "base_model": "runwayml/stable-diffusion-v1-5",
+  "resolution": 512,
+  "batch_size": 2,
+  "grad_accum": 2,
+  "num_epochs": 30,
+  "learning_rate": 0.0001,
+  "max_grad_norm": 1.0,
+  "lora_rank": 16,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "dataset_dir": "/content/floor_plan_dataset",
+  "use_enriched": true,
+  "save_every": 5,
+  "output_dir": "/content/drive/MyDrive/FloorPlanModel/checkpoints",
+  "use_xformers": true,
+  "fp16": true
+}
